@@ -15,6 +15,7 @@
     <div class="container">
       <div class="navbar-header">
         <%= link_to "Broadway", root_path, class: "navbar-brand" %>
+        <%= link_to "Add Play", current_user_new_play, class: "navbar-brand" %>
       </div>
       <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in?  %>
