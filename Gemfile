@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem "paperclip"
 # Use Active Storage variant

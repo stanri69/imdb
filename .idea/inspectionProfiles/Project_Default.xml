@@ -5,6 +5,10 @@
     <inspection_tool class="HtmlPresentationalElement" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="HtmlRequiredSummaryAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="HtmlRequiredTitleAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="Rubocop" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyResolve" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="warnImplicitResults" value="false" />
+    </inspection_tool>
   </profile>
 </component>
